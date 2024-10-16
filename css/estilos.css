@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
+
+.marcos {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contenido {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno */
+    cursor: pointer; /* Cursor de mano */
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; /* Color de fondo verde más oscuro al pasar el cursor */
+}
+
+a.volver {
+    text-decoration: none; /* Quita el subrayado por defecto de los enlaces */
+    color: #fff; /* Color de texto blanco */
+    background-color: #4CAF50; /* Color de fondo verde */
+    padding: 5px 10px; /* Espacio interno del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+a.volver:hover {
+    background-color: #e0e0e0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+
